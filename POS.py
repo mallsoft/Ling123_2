@@ -27,3 +27,4 @@ text_freq = Counter(text_freq)
 # print each on a separate line
 for element,count in text_freq.items():
         print(element,count)
+print(len(text_freq))
